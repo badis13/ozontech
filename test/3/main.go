@@ -14,7 +14,7 @@ func main() {
 		fmt.Scan(&s)
 		if len(s) < 4 {
 			fmt.Println("-")
-			return
+			continue
 		}
 		validNum(s)
 	}

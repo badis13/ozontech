@@ -1,6 +1,5 @@
 package main
 
-// пока не работает
 import (
 	"fmt"
 	"unicode"
@@ -51,6 +50,7 @@ func validNum(str string) {
 		for _, v := range result {
 			fmt.Print(v, " ")
 		}
+		fmt.Print("\n")
 		return
 	}
 	fmt.Println("-")
